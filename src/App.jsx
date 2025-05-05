@@ -22,10 +22,10 @@ function App() {
   //Esta función permite validar si el usuario y contraseña es correcto, iniciara sesión y mostrará la app
   function ingresar() {
     if (usuario == "admin" && clave == "admin") {
-      alert("Bienvenido")
+      alert("Autenticación Satisfactoria")
       setLogueado(true)
     }else{ // en caso contrario mostrará esta alerta
-      alert("Usuario o contraseña incorrectos")
+      alert("Error en la Autenticación")
     }
   }
 
